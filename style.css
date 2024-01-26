@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@400;600;700&display=swap');
+/* scroll bar starts */ 
+*::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #f5f5f5;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #D26F65;
+    border-radius: 10px;
+    border: 1px solid #b8b8b8;
+  } 
+
+/* scroll bar ends */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Martel Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background-color: #D26F65;
+    text-align: center;
+    border-bottom: 2px solid #c05c51;
+    top: 0;
+    left: 0;
+}
+.carousel{
+    object-fit: cover;
+    width: 100%;
+}
+.menu {
+    width: 100%;
+    background-color: #D26F65;
+    align-items: center;
+    display: flex;
+    padding-top: 10px;
+    top: 0;
+    left: 0;
+
+}
+.menu li{
+    list-style: none;
+    color: black;
+    
+}
+.unlist li a{
+    color: white;
+    text-decoration: none;
+}
+.underline{
+    padding: 4px 20px;
+}
+.underline:hover{
+    font-size: 17px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+.unlista li a:hover{
+    font-size: large;
+} 
+.carousel-item img {
+    height: 700px;
+}
+.dreamweaver{
+    color: #D26F65;
+    font-size: 30px;
+}
+.card {
+    color: rgb(80, 80, 80);
+    width: 320px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px 0 0 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.card:hover{
+    box-shadow: 0 0 15px 3px rgb(70, 70, 71);
+    border-radius: 5px;
+}
+.card img {
+    width: 300px;
+    height: 300px;
+    border-radius: 16px;
+}
+.card h4{
+    font-size: 15px;
+}
+.card h4:hover{
+    color: #D26F65;
+}
+.viewall{
+    margin-top: 20px;
+    text-align: center;
+
+}
+.viewall button{
+    border: none;
+}
+.viewall a{
+    border-radius: 8px;
+    padding: 8px;
+    background: #D26F65;
+    color: white;
+    text-decoration: none;
+}
+.viewall a:hover{
+    text-decoration: none;
+    font-size: large;
+    color: white;
+}
+.text-decoration-none{
+    width: 145px;
+}
+.review .user-name{
+    font-weight: 600;
+    font-size: 25px;
+}
+.blog-card{
+    width: 330px;
+}
+.blog-title{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.blog-para{
+    text-align: center;
+    font-size: 20px;
+}
+.text-body-secondary{
+    width: 230px;
+}
+.f-border{
+
+    border: 2px solid rgb(56, 56, 56);
+}
+.fe-head{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    color: #3b3838;
+}
+.fe-para{
+    color: #D26F65;
+}
+.fa-brands{
+    color:#D26F65;
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+}
+.fa-brands:hover{
+    font-size: 28px;
+}
+.footer{
+    background-color: #D26F65;
+}
+.list-unstyled .text-white:hover{
+    font-size: large;
+}
+/* product starts  */
+.margin-pro-title{
+    margin-top:150px;
+    margin-right: 40px ;
+}
+
+/* product ends  */
+/* sign up form starts */
+.border{
+    border: 2px solid black;
+    width: 300px;
+}
+.for{
+    border: 2px solid black;
+    border-radius: 5px ;
+    padding: 20px;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(175, 10, 190, 0.829);
+}
+.sign-head{
+    color: #D26F65;
+    font-size: 40px;
+}
+/* sign up form ends  */
+
+@media only screen and (min-width:200px) and (max-width:767px){
+    .product{
+
+        width: 100%;
+    }
+    .card{
+        flex-direction: column;
+        flex-basis: 100;
+    }
+}
